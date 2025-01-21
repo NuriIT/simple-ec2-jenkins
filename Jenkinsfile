@@ -21,7 +21,7 @@ pipeline {
                 echo 'Setting up Python environment and running tests...'
                 sh '''
                     
-                    iremepip install -r requnts.txt
+                    
                     pip install pytest
                     pytest
                 '''
