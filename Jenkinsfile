@@ -20,8 +20,8 @@ pipeline {
             steps {
                 echo 'Setting up Python environment and running tests...'
                 sh '''
-                    python3 -m pip install --upgrade pip
-                    pip install -r requirements.txt
+                    
+                    iremepip install -r requnts.txt
                     pip install pytest
                     pytest
                 '''
